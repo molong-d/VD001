@@ -14,8 +14,10 @@
             padding: 50px 0;
         }
         img {
-            max-width: 100%;
-            height: auto;
+            width: 300px; /* 设置所有图片的统一宽度 */
+            height: 300px; /* 设置所有图片的统一高度 */
+            object-fit: cover; /* 确保图片覆盖整个区域，可能会裁剪 */
+            margin: 10px; /* 为图片添加外边距 */
         }
         video {
             width: 90%;
@@ -37,12 +39,12 @@
         h1 {
             margin: 0 0 20px;
             color: #ffeb3b;
-            font-size: 3em; /* 增大标题字体大小 */
+            font-size: 3em;
         }
         p {
             max-width: 800px;
             margin: 0 auto 20px;
-            font-size: 1.5em; /* 增大段落字体大小 */
+            font-size: 1.5em;
         }
         .button {
             display: inline-block;
@@ -57,7 +59,6 @@
         .button:hover {
             background: #ffeb3b;
         }
-        /* 新增的固定定位样式 */
         .fixed-links {
             position: fixed;
             top: 20px;
@@ -89,13 +90,10 @@
 
     <!-- 主体内容 -->
     <h1>VD001</h1>
-    <h2>DeSci</h2>
+    
     <!-- 新增的文字 -->
     <p>Vitalik and CZ live promotion of longevity product VD001: approved by Thailand FDA. Science comes true. A big step for DeSci</p>
 
-    <h2>CA</h2>
-    <p>BvvtcUkDb2yVu9ujPBDwCjJZjGjdN27mqieKX85apump</p>
-    
     <!-- 插入图片 -->
     <h2>Image</h2>
     <!-- 插入多张图片 -->
