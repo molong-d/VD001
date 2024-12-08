@@ -55,37 +55,37 @@
         .button:hover {
             background: #ffeb3b;
         }
+        /* 新增的固定定位样式 */
+        .fixed-links {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .fixed-links h2 {
+            display: inline-block;
+            margin: 0 10px 0 0;
+            vertical-align: middle;
+        }
+        .fixed-links a {
+            display: inline-block;
+            margin: 0 0 10px 10px;
+            vertical-align: middle;
+        }
     </style>
 </head>
 <body>
-    <h1>VD001</h1>
-    <p>Turing will live forever</p>
-    <!-- 新增的文字 -->
-    <p>Vitalik and CZ live promotion of longevity product VD001: approved by Thailand FDA. Science comes true. A big step for DeSci</p>
+    <div class="fixed-links">
+        <!-- X (Twitter) Link -->
+        <h2>X (Twitter) Link</h2>
+        <a href="https://x.com/VD001_CTO" target="_blank" class="button">Follow me on X</a>
 
-    <!-- 插入图片 -->
-    <h2>Image</h2>
-    <!-- 插入多张图片 -->
-    <h2>Gallery</h2>
-    <!-- 图片代码省略 -->
-    <img src="1.png" alt="Image 1">
-    <img src="2.png" alt="Image 2">
-<!--     <img src="3.jpeg" alt="Image 3"> -->
-    
-    <!-- 插入视频 -->
-    <h2>Video</h2>
-    <!-- 新增的本地视频 -->
-    <video controls>
-        <source src="12月8日.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+        <!-- Telegram Link -->
+        <h2>Telegram Link</h2>
+        <a href="https://t.me/+ltJwCLO7WyphMWZl" target="_blank" class="button">Join me on Telegram</a>
+    </div>
 
-    <!-- X 链接 -->
-    <h2>X (Twitter) Link</h2>
-    <a href="https://x.com/VD001_CTO" target="_blank" class="button">Follow me on X</a>
+    <!-- 其他内容省略 -->
 
-    <!-- Telegram 链接 -->
-    <h2>Telegram Link</h2>
-    <a href="https://t.me/+ltJwCLO7WyphMWZl" target="_blank" class="button">Join me on Telegram</a>
 </body>
 </html>
