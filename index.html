@@ -14,10 +14,11 @@
             padding: 50px 0;
         }
         img {
-            width: 600px; /* 设置所有图片的统一宽度 */
-            height: 600px; /* 设置所有图片的统一高度 */
-            object-fit: cover; /* 确保图片覆盖整个区域，可能会裁剪 */
+            max-width: 100%; /* 设置图片最大宽度为容器的100% */
+            height: auto; /* 高度自动，以保持图片的宽高比 */
             margin: 10px; /* 为图片添加外边距 */
+            display: inline-block; /* 使图片并排显示 */
+            vertical-align: middle; /* 垂直居中 */
         }
         video {
             width: 90%;
